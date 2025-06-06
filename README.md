@@ -39,12 +39,12 @@ git clone https://github.com/rashtecq/smart-file-organizer.git
 cd smart-file-organizer
 
 2. Set up Python environment
-python -m venv fileagent-env
-.\fileagent-env\Scripts\activate  # Windows
-# OR
-source fileagent-env/bin/activate  # Linux/Mac
+    python -m venv file_agent-env
+    .\file_agent-env\Scripts\activate  # Windows
+    # OR
+    source file_agent-env/bin/activate  # Linux/Mac
 
-pip install langchain langchain-community ollama python-dotenv
+    pip install langchain langchain-community ollama python-dotenv
 
 3. Install Ollama and run a model
     Download Ollama and install ollama
