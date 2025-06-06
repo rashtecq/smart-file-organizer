@@ -35,7 +35,7 @@ This is a local AI-powered tool that **organizes files automatically** based on 
 
 1. **Clone the repo**
 ```bash
-git clone https://github.com/yourusername/smart-file-organizer.git
+git clone https://github.com/rashtecq/smart-file-organizer.git
 cd smart-file-organizer
 
 2. Set up Python environment
