@@ -25,11 +25,11 @@ This is a local AI-powered tool that **organizes files automatically** based on 
 ---
 
 ## 📁 Project Structure
-├── main.py # Entry point for the agent
-├── file_tools.py # File classification & moving logic
-├── sample_files/ # Folder with unorganized files
-├── organized_files/ # Output folder with categorized files
-└── README.md 
+    ├── main.py # Entry point for the agent
+    ├── file_tools.py # File classification & moving logic
+    ├── sample_files/ # Folder with unorganized files
+    ├── organized_files/ # Output folder with categorized files
+    └── README.md 
 
 ## ⚙️ Installation & Setup
 
@@ -55,22 +55,22 @@ pip install langchain langchain-community ollama python-dotenv
 
 
 ▶️ Usage
-1. Place files to organize in the sample_files/ folder: 
-resume_john.pdf
-invoice_123.pdf
-photo.png
-notes.pdf
+    1. Place files to organize in the sample_files/ folder: 
+    resume_john.pdf
+    invoice_123.pdf
+    photo.png
+    notes.pdf
 
 2. Run the script:
-python main.py
+    python main.py
 
 3. Files will be automatically moved to organized folders inside organized_files/:
-organized_files/
-├── Resumes/
-├── Invoices/
-├── Images/
-├── PDFs/
-├── Others/
+    organized_files/
+    ├── Resumes/
+    ├── Invoices/
+    ├── Images/
+    ├── PDFs/
+    ├── Others/
 
 🔍 How It Works
 LangChain creates an agent with a tool: FileOrganizer
